@@ -4,6 +4,8 @@ import '../services/message_service.dart';
 import '../models/message_model.dart';
 
 class ChatScreen extends StatefulWidget {
+  const ChatScreen({super.key});
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
